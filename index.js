@@ -89,7 +89,7 @@ iButton.addEventListener("click", function(){
         rem.innerHTML = "Remaining attemps: " + (attemps - failCount)
     }
 
-    if(failCount == 5){
+    if(failCount == attemps){
         alert("Oh no!")
         window.location.reload()
     }
