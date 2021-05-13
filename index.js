@@ -76,6 +76,7 @@ for(i = 0; i < categoriesEls.length; i++){
 iButton.addEventListener("click", function(){
     console.log("test")
     letterCh =inputBox.value
+    letterCh = letterCh.toLowerCase()
     for(i = 0; i < chosenWord.length; i++ ){
            if(letterCh === chosenWord[i]){
                var temp = wordPosition.innerHTML
