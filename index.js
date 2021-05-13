@@ -18,7 +18,7 @@ var inputBox = document.querySelector(".inputBox")
 var iButton = document.querySelector(".inputButt")
 var discList = document.querySelector(".discLett")
 var rem = document.querySelector(".fail")
-var attemps = 5
+var attemps = 10
 
 function wordSlice(word){
     slicedWord = []
