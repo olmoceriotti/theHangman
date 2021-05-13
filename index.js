@@ -90,7 +90,7 @@ iButton.addEventListener("click", function(){
     }
 
     if(failCount == attemps){
-        alert("Oh no!")
+        alert("The word was " + chosenWord + " \n Oh no!")
         window.location.reload()
     }
 
