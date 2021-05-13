@@ -98,6 +98,7 @@ iButton.addEventListener("click", function(){
         alert("The word was " + chosenWord + " \n You won!")
         window.location.reload()
     }
+    inputBox.value= ""
 })
 
 
