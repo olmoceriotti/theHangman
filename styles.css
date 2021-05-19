@@ -33,7 +33,7 @@ body{
     margin-left: 2rem;
     height: 2.1rem;
     width: 2.1rem;
-    border: solid black 2px;
+    /*border: solid black 2px;*/
     cursor: pointer;
 }
 
